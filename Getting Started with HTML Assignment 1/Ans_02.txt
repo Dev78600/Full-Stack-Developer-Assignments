@@ -1,0 +1,5 @@
+PURPOSE OF COMMENTS IN HTML:
+Comments in HTML are used to leave notes or explanations about the code, which are not displayed in the web browser.
+
+EXAMPLE:
+<!-- This is a comment -->

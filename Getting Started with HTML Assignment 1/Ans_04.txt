@@ -1,0 +1,4 @@
+ In HTML, tags and elements are fundamental concepts. A tag is used to mark up the start of an element and often includes attributes that define properties of the element. Elements consist of a start tag, content, and an end tag.
+
+EXAMPLE:
+<p>This is a paragraph element.</p>
