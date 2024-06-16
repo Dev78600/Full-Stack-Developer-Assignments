@@ -1,0 +1,18 @@
+HTML Entities:
+HTML entities are special codes that represent reserved characters, symbols, or characters with specific meanings in HTML. They are used to display characters that might otherwise be interpreted as HTML code or cause rendering issues in web browsers. HTML entities are written using an ampersand (&) followed by a specific code or name, and ending with a semicolon (;).
+
+5 Commonly Used HTML Entities:
+< - Represents the less-than symbol <.
+Example: <p>This is an example <text></em></p>
+
+> - Represents the greater-than symbol >.
+Example: <p>For more information, visit our website > <a href="#">here</a>.</p>
+
+& - Represents the ampersand symbol &.
+Example: <p>For further details, contact us & we'll assist you.</p>
+
+" - Represents a double quotation mark ".
+Example: <p>The title of the book is "The Great Gatsby".</p>
+
+© - Represents the copyright symbol ©.
+Example: <p>© 2023 ACME Corporation. All rights reserved.</p>
