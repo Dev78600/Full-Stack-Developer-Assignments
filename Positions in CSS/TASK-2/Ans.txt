@@ -1,0 +1,23 @@
+Absolute Positioning:
+-> Syntax:
+{
+    position: absolute;
+}
+
+-> With absolute positioning, an element is positioned relative to its nearest positioned ancestor.
+
+-> It will not break the normal document flow to position the element on the page.
+
+-> The element will leave the space at its original position & other content will not be adjusted to fit into any gap left by the element.
+
+Relative Positioning:
+-> Syntax:
+{
+    position: relative;
+}
+
+-> With relative positioning, an element can be moved up, down, left or rigth from its normal position.
+
+-> It will break the normal document flow to position the element on the page.
+
+-> The element will not leave any space in its original position.
