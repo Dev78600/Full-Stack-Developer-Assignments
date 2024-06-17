@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body, html {
+            margin: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            height: 100%;
+            width: 200px;
+            position: fixed;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .sidebar h2, .sidebar ul, .sidebar li {
+            margin: 0;
+            padding: 10px 0;
+        }
+        .sidebar ul {
+            list-style-type: none;
+        }
+        .sidebar li {
+            padding: 10px;
+            border-bottom: 1px solid #394a59;
+        }
+        .sidebar li:hover {
+            background-color: #394a59;
+        }
+        .sidebar .active {
+            background-color: #394a59;
+        }
+        .content header {
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .content header .profile {
+            float: right;
+        }
+        .content header .search {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+        <li class="active">Dashboard</li>
+        <li>Team</li>
+        <li>Projects</li>
+        <li>Calendar</li>
+        <li>Documents</li>
+        <li>Reports</li>
+    </ul>
+    <h3>Your Teams</h3>
+    <ul>
+        <li>PW Skills</li>
+        <li>PW Labs</li>
+        <li>PW - IOI</li>
+    </ul>
+</div>
+
+<div class="content">
+    <header>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="profile">
+            <span>Profile</span>
+        </div>
+    </header>
+    <!-- Content goes here -->
+</div>
+
+</body>
+</html>
