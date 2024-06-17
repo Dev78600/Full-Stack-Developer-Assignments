@@ -1,0 +1,90 @@
+Solution - Operators in JavaScript are categorized based on the number of operands they require, into the following groups:
+• Unary operators: Unary operators operate on a single operand.
+• Binary operators: Binary operators operate on two operands.
+
+Unary operators in JavaScript are:
+
+-> Unary plus (+): Tries to convert the operand into a number.
+JavaScript
+
+let x = "5";
+x = +x; 
+
+-> Unary negation (-): Tries to convert the operand into a number and negates after.
+let x = "5";
+x = -x; 
+
+-> Increment (++): Adds one to its operand.
+let x = 5;
+++x; 
+
+-> Decrement (--): Subtracts one from its operand.
+let x = 5;
+--x; 
+
+-> Logical Not (!): Converts to boolean value then negates it.
+let x = true;
+x = !x; 
+
+-> Bitwise not (~): Inverts the bits of its operand.
+let x = 5;
+x = ~x; 
+
+-> typeof: Returns a string indicating the type of the unevaluated operand.
+let x = 5;
+console.log(typeof x); 
+
+-> delete: Deletes an object, an object’s property, or an element at a specified index in an array.
+let obj = {name: "John", age: 30};
+delete obj.age; 
+
+-> void: Discards a return value of an expression.
+void(0);
+
+Binary operators in JavaScript are:
+
+-> Arithmetic Operators: Perform mathematical operations.
+
+let a = 10, b = 5;
+console.log(a + b); // Addition, outputs 15
+console.log(a - b); // Subtraction, outputs 5
+console.log(a * b); // Multiplication, outputs 50
+console.log(a / b); // Division, outputs 2
+console.log(a % b); // Modulus (Remainder), outputs 0
+
+-> Assignment Operators: Assign values to variables.
+
+let a = 10; // Assignment
+a += 5; // Addition assignment, a is now 15
+a -= 5; // Subtraction assignment, a is now 10
+a *= 2; // Multiplication assignment, a is now 20
+a /= 2; // Division assignment, a is now 10
+a %= 3; // Modulus assignment, a is now 1
+
+
+-> Comparison Operators: Compare two values.
+
+let a = 10, b = 5;
+console.log(a == b); // Equal to, outputs false
+console.log(a != b); // Not equal to, outputs true
+console.log(a > b); // Greater than, outputs true
+console.log(a < b); // Less than, outputs false
+console.log(a >= b); // Greater than or equal to, outputs true
+console.log(a <= b); // Less than or equal to, outputs false
+
+-> Logical Operators: Perform logical operations.
+
+let a = true, b = false;
+console.log(a && b); // Logical AND, outputs false
+console.log(a || b); // Logical OR, outputs true
+
+-> Bitwise Operators: Perform operations on binary representations of numbers.
+
+let a = 5, b = 3;
+console.log(a & b); // Bitwise AND, outputs 1
+console.log(a | b); // Bitwise OR, outputs 7
+console.log(a ^ b); // Bitwise XOR, outputs 6
+console.log(~a); // Bitwise NOT, outputs -6
+console.log(a << b); // Left shift, outputs 40
+console.log(a >> b); // Sign-propagating right shift, outputs 0
+console.log(a >>> b); // Zero-fill right shift, outputs 0
