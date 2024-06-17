@@ -1,0 +1,30 @@
+Loops are a fundamental concept in programming that allow a certain block of code to be repeated a specified number of times or until a certain condition is met. They are used to automate repetitive tasks, which can save time and reduce the amount of code.
+
+In JavaScript, there are several types of loops:
+
+-> For Loop: A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.
+
+For Example:
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+-> While Loop: A while loop executes its statements as long as a specified condition evaluates to true. If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
+
+For Example:
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+-> Do-While Loop: The do...while loop is similar to the while loop except that the do...while loop doesn’t evaluate the condition for the first time the loop executes. However, the condition is evaluated for the subsequent iterations. In other words, the code block inside the do...while loop will always execute at least once.
+
+For Example:
+
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 5);

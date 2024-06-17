@@ -1,0 +1,7 @@
+Conditional Statements: Conditional statements in JavaScript are used to perform different actions based on different conditions. The if statement is used to specify a block of code to be executed if a condition is true. 
+
+For example:
+
+if (x > 10) {
+  console.log("x is greater than 10");
+}
