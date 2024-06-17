@@ -1,0 +1,15 @@
+GitHub is a cloud-based hosting service that helps developers store and manage their code, as well as track and control changes to their code (version control). It's designed to help developers work together on projects from anywhere.
+
+This platform introduces the concept of 'repositories' where users can store their work. You can think of it as your project folder. Not only does it host your code, but also offers a few more features:
+
+- Version control: Indeed, this is the most vital feature of GitHub. Thanks to this feature, you can track your code, see changes made and go back to any previous version of your code. You don't need to worry about losing your code.
+
+- Branches and pull requests: The main part of your project is stored in the 'master' branch. When you want to work on something, you can create a new branch so that you don't affect the main part. Once you're done, you can open a 'pull request' which means you're proposing your changes to the original project.
+
+- Issues: If you're facing a bug or want to suggest a new feature, just open an issue. You can discuss with others there and even assign people to work on issues.
+
+- Code review: You can use GitHub to review code. In the open-source world, this happens for every single pull request by project maintainers before merging it.
+
+- Discussions: GitHub recently introduced the 'Discussions' feature. It's a place where you can have conversations about anything related to your project.
+
+Similar platforms to GitHub include: GitLab, BitBucket, Source Forge, Launchpad.
