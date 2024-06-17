@@ -1,0 +1,5 @@
+DOM API: Allows manipulation of the HTML/CSS structure of web pages.
+Fetch API: Enables network requests for resource fetching.
+Canvas API: Provides a means to draw 2D graphics.
+Web Audio API: Used for audio processing and control.
+Geolocation API: Gives access to the device’s geographical location.

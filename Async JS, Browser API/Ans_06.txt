@@ -1,0 +1,3 @@
+-> localStorage: Used to store data that needs to persist across sessions. For example, you can store user preferences or shopping cart contents that should remain available even after the browser is closed and reopened.
+
+-> sessionStorage: Used for storing data that should only be available for the duration of the page session. A use case could be storing data temporarily during a multi-page registration process, which is cleared once the process is completed or the tab is closed.

@@ -1,0 +1,5 @@
+Definition: It’s a security concept in web browsers that restricts scripts on one origin from interacting with resources from different origins.
+Workarounds: To bypass this policy, you can use:
+CORS: By setting proper HTTP headers to allow cross-origin requests.
+JSONP: For GET requests by adding a script tag with a callback function.
+Proxy Server: A server-side solution that can request data from different domains and pass it to the client-side.

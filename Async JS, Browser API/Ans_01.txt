@@ -1,0 +1,7 @@
+The XMLHttpRequest object is a core feature of AJAX (Asynchronous JavaScript and XML) that allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. This means that it’s possible to update parts of a web page without reloading the whole page.
+
+Here’s a brief explanation:
+
+Definition: It’s a JavaScript object that provides methods to send and receive data from a server.
+Usage in AJAX: It’s used to make HTTP requests to the server after the initial page load, retrieve data, and then update the web page dynamically based on the server’s response.
+This object can handle data in various formats, including XML, JSON, and plain text, making it versatile for different web applications.

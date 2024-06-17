@@ -1,0 +1,3 @@
+Promises provide a cleaner and more robust way of handling asynchronous operations compared to callbacks.
+They help avoid the “callback hell” or “pyramid of doom” by allowing asynchronous functions to return values like synchronous functions: then() for success, catch() for errors.
+Promises support better error handling and make the code more readable and maintainable.
